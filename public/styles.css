@@ -1,0 +1,42 @@
+body {
+  font-family: "Playfair Display", serif;
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to right white, grey);
+  background: linear-gradient(to right, white, grey);
+  color: white;
+}
+
+.cen {
+  border-style: solid;
+  border-color: white;
+  border-radius: 15%;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background: white;
+  color: gray;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.buttons {
+  margin-top: 10%;
+}
+
+button {
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 0;
+  color: #dfdbdf;
+}
